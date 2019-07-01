@@ -117,7 +117,7 @@ class App extends Component {
             {this.state.list.length>0 && this.state.list.map(item => (
                 !item.isArchived && <div>
                   <li className="list-group-item" id={item._id}>
-                    <i className={"fa fa-check "+(item.isDone ? 'text-success' : 'text-warning')} aria-hidden="true" onClick={() => this.TaskIsDoneSwitcher(item._id)}></i>
+                    <i className={"btnTasks fa fa-check "+(item.isDone ? 'text-success' : 'text-warning')} aria-hidden="true" onClick={() => this.TaskIsDoneSwitcher(item._id)}></i>
                     {item.isDone ? <span className="description">
                       <del>{item.description}</del></span>
                        : <span className="description">
