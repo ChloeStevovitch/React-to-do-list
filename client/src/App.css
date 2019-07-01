@@ -29,3 +29,31 @@ h1 {
 .more:active {
   background-color: #FFEFA9;
 }
+.archived{
+  color: gainsboro;
+}
+
+.description{
+  padding-right:10px;
+
+}
+
+.addATask{
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom : 30px;
+}
+
+.tasks{
+  width: 600px;
+
+}
+.title{
+  padding-bottom: 40px;
+}
+.btnTasks{
+  margin-right :5px;
+}
+.addATask{
+  padding-left:20px;
+}
